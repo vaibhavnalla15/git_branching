@@ -1,3 +1,13 @@
+demo.txt form main branch:
+Hi this is the simple text file.
+
+This is introduction to git commits.
+This file is created to demonstrate git commit functionality.
+Thank you!
+Have a nice day!
+This is the end of the file.
+
+demo.txt from new-branch:
 This is new branch file.
 
 The commands used were:
