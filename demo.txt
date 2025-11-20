@@ -1,8 +1,7 @@
-Hi this is the simple text file.
+This is new branch file.
 
-This is introduction to git commits.
-This file is created to demonstrate git commit functionality.
-Thank you!
-Have a nice day!
-This is the end of the file.
-
+The commands used were:
+git switch -c new-branch # Create and switch to a new branch named 'new-branch'
+echo "This is new branch file." > demo.txt
+git add demo.txt
+git commit -m "Add demo.txt in new-branch"
