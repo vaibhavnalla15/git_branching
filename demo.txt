@@ -1,0 +1,8 @@
+Hi this is the simple text file.
+
+This is introduction to git commits.
+This file is created to demonstrate git commit functionality.
+Thank you!
+Have a nice day!
+This is the end of the file.
+
