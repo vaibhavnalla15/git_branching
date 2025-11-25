@@ -1,0 +1,15 @@
+In this lesson we are merging branches.
+We will merge the changes made in the new-branch into the main branch.
+The commands used were:
+git switch main # Switch back to the main branch
+git merge new-branch # Merge the new-branch into main
+After merging, the changes from new-branch will be reflected in main.
+You can verify this by checking the contents of demo.txt in the main branch.
+git checkout main
+cat demo.txt
+The output will show the content added in the new-branch.
+This demonstrates how to merge branches in Git.
+Make sure to resolve any merge conflicts if they arise during the merge process.
+Happy merging!
+
+# End of file
