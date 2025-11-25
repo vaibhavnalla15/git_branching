@@ -1,0 +1,11 @@
+In this file, we will discuss the concept of remote branching.
+
+In this we fetch the branches from a remote repository and create local branches that track those remote branches.
+To create a remote branch, you can use the following command:
+git checkout -b <local-branch-name> <remote-name>/<remote-branch-name>
+or 
+git checkout --track <remote-name>/<remote-branch-name>
+e.g.
+git checkout -b feature-xyz origin/feature-xyz
+or
+git checkout --track origin/feature-xyz
