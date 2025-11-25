@@ -1,0 +1,27 @@
+This file is about rebase operations.
+
+rebase means to move or combine a sequence of commits to a new base commit.
+It is commonly used to maintain a linear project history.
+For example, if you have a feature branch that diverged from the main branch, you can rebase the feature branch onto the latest commit of the main branch to incorporate the latest changes.
+
+The command for rebasing is:
+git checkout feature-branch
+git rebase main
+
+This will replay the commits of the feature branch on top of the main branch.
+Conflicts may arise during a rebase if the same lines of code were modified in both branches.
+In such cases, Git will pause the rebase process and allow you to resolve the conflicts manually
+before continuing.
+To continue the rebase after resolving conflicts, use:
+git add <file>
+git rebase --continue
+If you want to abort the rebase and return to the original branch state, use:
+git rebase --abort
+After a successful rebase, you may need to force push the changes to the remote repository
+if the branch has already been pushed:
+git push --force
+Always be cautious when using rebase, especially with shared branches,
+as it rewrites commit history.
+--- IGNORE ---
+Merge branch 'main' into new-branch
+
