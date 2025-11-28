@@ -1,5 +1,5 @@
 This is the first commit message form main branch.
 
-This is the third commit message from main branch.
-
 This is the second commit message from main demo branch.
+
+This is the third commit message from main branch.
